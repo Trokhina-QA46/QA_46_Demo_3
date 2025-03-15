@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6188a11-2eb6-41c7-b9c7-94a81410fb97" name="Changes" comment="" />
+    <list default="true" id="b6188a11-2eb6-41c7-b9c7-94a81410fb97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/CssSelectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/XpathSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/Exceptions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,26 +23,119 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2uGcD9nebP5d4jSCpKnMRsKXYPb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build QA_46_Demo_3.executor": "Run",
+    "Gradle.QA_46_Demo_3 [:Exceptions.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CssSelectors.selectorElementsPage.executor": "Run",
+    "TestNG.CssSelectors.selectorRadioButtonPage.executor": "Run",
+    "TestNG.XpathSelectors.selectorsTextBox.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/AutoProjects",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.XpathSelectors.selectorsTextBox">
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiments.Exceptions" />
+      <module name="QA_46_Demo_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectors.selectorElementsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_46_Demo_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.CssSelectors" />
+      <option name="METHOD_NAME" value="selectorElementsPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectors.selectorRadioButtonPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_46_Demo_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.CssSelectors" />
+      <option name="METHOD_NAME" value="selectorRadioButtonPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XpathSelectors.selectorsTextBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_46_Demo_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.XpathSelectors" />
+      <option name="METHOD_NAME" value="selectorsTextBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.XpathSelectors.selectorsTextBox" />
+        <item itemvalue="TestNG.CssSelectors.selectorElementsPage" />
+        <item itemvalue="TestNG.CssSelectors.selectorRadioButtonPage" />
+        <item itemvalue="Application.Exceptions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
