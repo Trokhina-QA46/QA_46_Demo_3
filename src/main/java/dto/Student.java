@@ -1,24 +1,32 @@
 package dto;
 
+import emums.Gender;
+import emums.Hobbies;
+
+import java.util.List;
 import java.util.Objects;
 
 public class Student {
     private String name;
     private String lastName;
     private String email;
-    private String gender;
+    private Gender gender;
     private String mobile;
     private String dateOfBirth;
     private String subjects;
-    private String hobbies;
+    private List<Hobbies> hobbies;
     private String picture;
     private String address;
     private String state;
     private String city;
 
     public Student() {}
-    public Student(String name, String lastName, String email, String gender, String mobile,
-                   String dateOfBirth, String subjects, String hobbies, String picture, String address, String state, String city) {
+
+    public Student(String name, String lastName,
+                   String email, Gender gender,
+                   String mobile, String dateOfBirth, String subjects,
+                   List<Hobbies> hobbies, String picture, String address,
+                   String state, String city) {
         this.name = name;
         this.lastName = lastName;
         this.email = email;
@@ -53,7 +61,6 @@ public class Student {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
         return Objects.equals(name, student.name) && Objects.equals(lastName, student.lastName) && Objects.equals(email, student.email) && Objects.equals(gender, student.gender) && Objects.equals(mobile, student.mobile) && Objects.equals(dateOfBirth, student.dateOfBirth) && Objects.equals(subjects, student.subjects) && Objects.equals(hobbies, student.hobbies) && Objects.equals(picture, student.picture) && Objects.equals(address, student.address) && Objects.equals(state, student.state) && Objects.equals(city, student.city);
@@ -88,11 +95,11 @@ public class Student {
         this.email = email;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(Gender gender) {
         this.gender = gender;
     }
 
@@ -120,11 +127,11 @@ public class Student {
         this.subjects = subjects;
     }
 
-    public String getHobbies() {
+    public List<Hobbies> getHobbies() {
         return hobbies;
     }
 
-    public void setHobbies(String hobbies) {
+    public void setHobbies(List<Hobbies> hobbies) {
         this.hobbies = hobbies;
     }
 
